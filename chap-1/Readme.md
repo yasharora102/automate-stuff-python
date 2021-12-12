@@ -38,3 +38,19 @@ Answer
 'spamspamspam'
 ```
 ### 8. Why is ``eggs`` a valid variable name while ``100`` is invalid?
+Because `100` starts with a number.
+### 9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+```python
+- int()   -> integer 
+- float() -> floating-point number
+- str()   -> string
+```
+### 10. Why does this expression cause an error? How can you fix it?
+```python
+'I have eaten ' + 99 + ' burritos.'
+```
+It gives an error because a string datatype can't be concatenated with an integer datatype.
+We can fix this by type-casting the integer datatype to string datatype.
+```python
+'I have eaten ' + '99' + ' burritos.'
+```
