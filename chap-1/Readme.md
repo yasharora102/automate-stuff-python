@@ -37,6 +37,4 @@ Answer
 'spamspamspam'
 'spamspamspam'
 ```
-<h3 id="calibre_link-1257" href="#calibre_link-1664" class="calibre6"> 8. Why is <span class="literal">eggs</span> a valid variable name while 100 is invalid? </h3>
-
-Expressions consist of values and operators. All expressions can always evaluate down to a single value. 
+### 8. Why is ``eggs`` a valid variable name while ``100`` is invalid?
