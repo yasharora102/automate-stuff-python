@@ -21,3 +21,22 @@
 Expressions consist of values and operators. All expressions can always evaluate down to a single value. 
 ### 5. This chapter introduced assignment statements, like spam = 10. What is the difference between an expression and a statement?
 A statement represents an action or command to be performed whereas an expression consists of values and operattors which evaluate down to a single value.
+### 6. What does the variable bacon contain after the following code runs?
+```python
+bacon = 20
+bacon + 1
+```
+Answer --> **21**
+### 7. What should the following two expressions evaluate to?
+```python
+'spam' + 'spamspam'
+'spam' * 3
+```
+Answer
+```python
+'spamspamspam'
+'spamspamspam'
+```
+<h3 id="calibre_link-1257" href="#calibre_link-1664" class="calibre6"> 8. Why is <span class="literal">eggs</span> a valid variable name while 100 is invalid? </h3>
+
+Expressions consist of values and operators. All expressions can always evaluate down to a single value. 
