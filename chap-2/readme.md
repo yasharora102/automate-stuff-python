@@ -141,9 +141,38 @@ Ctrl + C
 - `break`:used for immediate termination of loop. Skips the execution of the remaining statements of loop.
 -  `continue`:terminates the current iteration and resumes the control to the next iteration of the loop.
 
-### 12. What is the difference between `range(10)`, `range(0, 10)`, and `range(0, 10, 1)` in a for `loop`?
+### 12. What is the difference between `range(10)`, `range(0, 10)`, and `range(0, 10, 1)` in a `for` loop?
+1. `range(10)`:
+    - Starting Value = 0 
+    - Ending Value = 9
+    - Increment Value = 1 (default)
+    - All values =`[0,1,2,3,4,5,6,7,8,9]`
+2. `range(0,10)`:
+    - Starting Value = 0 
+    - Ending Value = 9
+    - Increment Value = 1 (default)
+    - All values =`[0,1,2,3,4,5,6,7,8,9]`
+3. `range(0,10,1)`:
+    - Starting Value = 0 
+    - Ending Value = 9
+    - Increment Value = 1 (specified in this function)
+    - All values =`[0,1,2,3,4,5,6,7,8,9]`
+<p>In conclusion there is no specific difference in the values provided by the 3 different functions they are basically the same.</p>
+
 
 ### 13. Write a short program that prints the numbers `1` to `10` using a `for` loop. Then write an equivalent program that prints the numbers `1` to `10` using a `while` loop.
-
+```python
+#for loop
+for i in range(11):
+    print(i)
+```
+```python
+#for loop
+for i in range(11):
+    print(i)
+```
 ### 14. If you had a function named `bacon()` inside a module named `spam`, how would you call it after importing `spam`?
+```python
+spam.bacon()
+```
 
