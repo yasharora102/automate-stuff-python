@@ -56,10 +56,20 @@ NoneType
 ```
 
 ### 11. What does the import areallyourpetsnamederic statement do?
+```
+It imports a module named areallyourpetsnamederic.
+```
 
 ### 12. If you had a function named bacon() in a module named spam, how would you call it after importing spam?
-
+```python
+spam.bacon()
+```
 ### 13. How can you prevent a program from crashing when it gets an error?
-
+```
+By using try and except clauses.
+```
 ### 14. What goes in the try clause? What goes in the except clause?
-
+```
+The code which may have an error is put in a try clause and the except clause contains code to handle what happens 
+when error occurs.
+```
